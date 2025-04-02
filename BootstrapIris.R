@@ -9,5 +9,5 @@ sqrt(sum((iris.rg$predicted - iris$Sepal.Length)^2) / nrow(iris))
 bootdataIris=iris[sample(nrow(iris), 1000, replace=TRUE), ]
 
 head(bootdataIris)
-nrow(bootdataIris
+nrow(bootdataIris)
 str(bootdataIris)
